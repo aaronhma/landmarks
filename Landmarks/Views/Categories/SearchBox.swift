@@ -22,6 +22,7 @@ struct SearchBox: View {
         .padding(.vertical, 8)
         .background(Color(.systemGray6))
         .clipShape(RoundedRectangle(cornerRadius: 32))
+        .searchable(text: $searchText) {}
     }
 }
 
